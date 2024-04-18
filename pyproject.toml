@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm_rag_qa_documents"
+version = "0.1.0"
+description = ""
+authors = ["brunocfnba <brunocfnba@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+langchain = "^0.1.13"
+chromadb = "^0.4.24"
+langchain-ibm = "^0.1.3"
+langchain-community = "^0.0.29"
+python-dotenv = "^1.0.1"
+panel = "^1.3.8"
+ibm-cloud-sdk-core = "^3.19.2"
+unstructured = "0.10.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
